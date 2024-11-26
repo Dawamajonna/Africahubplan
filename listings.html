@@ -1,0 +1,60 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Property Listings - AfricaHubPlan</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Property Listings</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="listings.html">Listings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="filters">
+                <h2>Filter Properties</h2>
+                <form id="search-form">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location">
+                    <label for="price">Price Range:</label>
+                    <input type="text" id="price" name="price">
+                    <label for="type">Type:</label>
+                    <select id="type" name="type">
+                        <option value="villa">Villa</option>
+                        <option value="apartment">Apartment</option>
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+
+            <section id="results">
+                <h2>Results</h2>
+                <div class="property-card">
+                    <img src="assets/villa.jpg" alt="Luxury Villa">
+                    <h3>Luxury Villa in Nairobi</h3>
+                    <p>Price: $500,000</p>
+                </div>
+                <div class="property-card">
+                    <img src="assets/apartment.jpg" alt="Apartment">
+                    <h3>Apartment in Cape Town</h3>
+                    <p>Price: $300,000</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 AfricaHubPlan - All Rights Reserved</p>
+        </footer>
+    </body>
+    </html>
+    
